@@ -1,0 +1,53 @@
+html,body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(37, 36, 36);
+}
+.wrapper div,.wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: azure;
+    letter-spacing: 1px;
+    font-size: xx-large;
+    
+}
+input{
+    border-radius: 5px;
+    border: 2px solid azure ;
+    margin-top: 30px;
+    height: 2em;
+    width: 250px;
+    padding-left: 10px;
+}
+input:active{
+    border: none;
+}
+.wrapper{
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    background-color: rgba(234, 229, 229, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(80, 157, 246);
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: rgb(234, 196, 230);
+}
+button:hover{
+    cursor: pointer;
+}
+#result{
+    color: white;
+    margin-top: 40px;
+    font-size: 32px;
+}
